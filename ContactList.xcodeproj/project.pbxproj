@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1731DA292EA8DD0038978C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1731D9292EA8DD0038978C /* DetailViewController.swift */; };
 		ED39CF72292D4B3700D13156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF71292D4B3700D13156 /* AppDelegate.swift */; };
 		ED39CF74292D4B3700D13156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF73292D4B3700D13156 /* SceneDelegate.swift */; };
 		ED39CF79292D4B3700D13156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39CF77292D4B3700D13156 /* Main.storyboard */; };
 		ED39CF7B292D4B3800D13156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED39CF7A292D4B3800D13156 /* Assets.xcassets */; };
 		ED39CF7E292D4B3800D13156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39CF7C292D4B3800D13156 /* LaunchScreen.storyboard */; };
 		ED39CF86292DE7DB00D13156 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF85292DE7DB00D13156 /* ContactsViewController.swift */; };
-		ED39CF88292DFCFA00D13156 /* NameContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF87292DFCFA00D13156 /* NameContact.swift */; };
-		ED39CF8A292E906700D13156 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF89292E906700D13156 /* DataStore.swift */; };
+		ED39CF88292DFCFA00D13156 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF87292DFCFA00D13156 /* Person.swift */; };
+		ED39CF8A292E906700D13156 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39CF89292E906700D13156 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED1731D9292EA8DD0038978C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ED39CF6E292D4B3700D13156 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED39CF71292D4B3700D13156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED39CF73292D4B3700D13156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,8 @@
 		ED39CF7D292D4B3800D13156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED39CF7F292D4B3800D13156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED39CF85292DE7DB00D13156 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		ED39CF87292DFCFA00D13156 /* NameContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameContact.swift; sourceTree = "<group>"; };
-		ED39CF89292E906700D13156 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		ED39CF87292DFCFA00D13156 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ED39CF89292E906700D13156 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +46,9 @@
 		ED39CF65292D4B3700D13156 = {
 			isa = PBXGroup;
 			children = (
-				ED39CF89292E906700D13156 /* DataStore.swift */,
-				ED39CF87292DFCFA00D13156 /* NameContact.swift */,
+				ED39CF89292E906700D13156 /* DataManager.swift */,
+				ED39CF87292DFCFA00D13156 /* Person.swift */,
+				ED1731D9292EA8DD0038978C /* DetailViewController.swift */,
 				ED39CF85292DE7DB00D13156 /* ContactsViewController.swift */,
 				ED39CF70292D4B3700D13156 /* ContactList */,
 				ED39CF6F292D4B3700D13156 /* Products */,
@@ -146,8 +149,9 @@
 			files = (
 				ED39CF72292D4B3700D13156 /* AppDelegate.swift in Sources */,
 				ED39CF74292D4B3700D13156 /* SceneDelegate.swift in Sources */,
-				ED39CF88292DFCFA00D13156 /* NameContact.swift in Sources */,
-				ED39CF8A292E906700D13156 /* DataStore.swift in Sources */,
+				ED39CF88292DFCFA00D13156 /* Person.swift in Sources */,
+				ED1731DA292EA8DD0038978C /* DetailViewController.swift in Sources */,
+				ED39CF8A292E906700D13156 /* DataManager.swift in Sources */,
 				ED39CF86292DE7DB00D13156 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
